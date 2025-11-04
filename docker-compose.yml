@@ -3,4 +3,4 @@ services:
     image: leenavemula/jenkins-task2:latest
     container_name: jenkins_task2_app
     ports:
-      - "3000:8080"
+      - "5050:8080"
