@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     DOCKER_CRED = credentials('dockerhub-creds')
-    APP_NAME = "leenavemula25/jenkins-task2"
+    APP_NAME = "leenavemula/jenkins-task2"
   }
 
   stages {
