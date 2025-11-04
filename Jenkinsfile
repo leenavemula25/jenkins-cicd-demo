@@ -2,9 +2,10 @@ pipeline {
   agent any
 
   environment {
-    DOCKER_CRED = credentials('dockerhub-creds')
-    APP_NAME = "vemula.guptha@triconinfotech.com/myapp"
-  }
+  DOCKER_CRED = credentials('dockerhub-creds')
+  APP_NAME = "leenavemula/jenkins-task2"
+}
+
 
   stages {
     stage('Checkout Code') {
