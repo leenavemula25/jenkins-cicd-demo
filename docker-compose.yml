@@ -1,6 +1,6 @@
-version: "3"
 services:
   app:
-    image: yourdockerhubusername/myapp:latest
+    image: leenavemula/jenkins-task2:latest
+    container_name: jenkins_task2_app
     ports:
       - "8080:8080"
