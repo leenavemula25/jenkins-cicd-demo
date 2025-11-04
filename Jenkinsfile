@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     DOCKER_CRED = credentials('dockerhub-creds')
-    APP_NAME = "leenavemula/myapp"
+    APP_NAME = "vemula.guptha@triconinfotech.com/myapp"
   }
 
   stages {
